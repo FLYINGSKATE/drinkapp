@@ -1,4 +1,4 @@
-import 'package:drinkapp/view/searchListScreen.dart';
+import 'package:drinkapp/view/SearchListScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'network/my_http_overrides.dart';

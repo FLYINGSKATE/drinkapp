@@ -1,6 +1,7 @@
 import 'package:drinkapp/modals/DrinkModal.dart';
 import 'package:flutter/material.dart';
 class DrinksDetailsScreen extends StatefulWidget {
+
   final DrinkModal drinkModal;
 
   const DrinksDetailsScreen({Key? key, required this.drinkModal}) : super(key: key);

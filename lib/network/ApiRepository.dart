@@ -31,14 +31,13 @@ class ApiRepository {
       print("valueMap[drinks]");
       print(valueMap["drinks"]);
       print("drinkModalList.length");
-      List? drinksList = valueMap["drinks"];
+      List? tempDrinkList = valueMap["drinks"];
       List<DrinkModal> drinkModalList = [];
-      drinksList?.forEach((element) {
+      tempDrinkList?.forEach((element) {
         print("element");
         print(element);
         drinkModalList.add(DrinkModal.fromJson(element));
       });
-      print("Dasas");
       print(drinkModalList.first.strAlcoholic);
       return drinkModalList;
     }
